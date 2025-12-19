@@ -1,0 +1,578 @@
+/* 카페24프로슬림 서체 */
+@font-face {
+    font-family: 'Cafe24ProSlim';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2511-1@1.0/Cafe24PROSlim-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+} 
+
+
+
+
+/* 프리텐다드 서체 */
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.nefont-weight: 500;t/gh/projectnoonnu/pretendard@1.0/Pretendard-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+
+
+
+/* 인덱스 스타일 */
+
+
+
+
+/* 폰트 세팅 */
+.font01{
+    font-family: 'Cafe24ProSlim';
+}
+
+.font02{
+    font-family: 'Pretendard';
+}
+
+
+/* 메인타이틀 */
+.font03{
+    font-family: 'Cafe24ProSlim';
+    font-size: 30px;
+    -webkit-text-stroke: 1px #121212;
+    color: #121212;
+}
+
+.font04{
+    font-family: 'Cafe24ProSlim';
+    font-size: 35px;
+    -webkit-text-stroke: 1px #121212;
+    color: #121212;
+}
+
+
+/* 메뉴판 */
+.font05{
+    font-family: 'Cafe24ProSlim';
+    font-size: 25px;
+    -webkit-text-stroke: 1px #121212;
+    color: #121212;
+}
+
+.font06{
+    font-family: 'Cafe24ProSlim';
+    font-size: 24px;
+    -webkit-text-stroke: 1px #121212;
+    color: #121212;
+}
+
+
+/* 메뉴이름, 가격 */
+.font07{
+    font-family: 'Cafe24ProSlim';
+    font-size: 16px;
+    color: #121212;
+}
+
+.font08{
+    font-family: 'Cafe24ProSlim';
+    font-size: 12px;
+    color: #121212;
+}
+
+
+/* 서브설명 */
+.font09{
+    font-family: 'Pretendard';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.4));
+    color: #121212;
+}
+
+
+/* 본문설명 */
+.font10{
+    font-family: 'Pretendard';
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 160%;
+    color: #121212;
+}
+
+
+/* 음료용량 */
+.font11{
+    font-family: 'Pretendard';
+    font-size: 10px;
+    font-weight: 500;
+    color: #121212;
+}
+
+
+/* 메뉴상세 */
+.font12{
+    font-family: 'Pretendard';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 130%;
+    color: #121212;
+}  
+
+
+
+
+/* 서브페이지 스타일 */
+.box01{
+    height: 1719px;
+    background-color: #F8F5F1;
+}
+
+.box02{
+    height: 1652px;
+    background-color: #EBE4DA;
+}
+
+.box03{
+    height: 1399px;
+    background-color: #E0D9CF;
+}
+
+.box04{
+    height: 112px;
+    background-color: #CEBFAD;
+}
+
+
+
+
+/* 메인설명 스타일 */
+.a_01{
+    position: absolute;
+    top: 69px;
+    left: 16px;
+    width: 261px;
+    height: 106px;
+    background-color: #CEBFAD;
+}
+
+.a_02{
+    position: absolute;
+    top: 60px;
+    width: 261px;
+    height: 106px;
+    background-color: #EBE4DA;
+}
+
+.a_03{
+    position: absolute;
+    top: 72px;
+    left: 36px;
+}
+
+.a_04{
+    position: absolute;
+    top: 114px;
+    left: 36px;
+}
+
+.a_05{
+    position: absolute;
+    top: 204px;
+    left: 36px;
+}
+
+.a_06{
+    position: absolute;
+    top: 321px;
+    left: 36px;
+}
+
+.a_07{
+    position: absolute;
+    top: 469px;
+    left: 159px;
+}
+
+.a_08{
+    position: absolute;
+    top: 647px;
+    left: 23px;
+}
+
+
+
+
+.a_09{
+    position: absolute;
+    top: 890px;
+    left: 16px;
+    width: 299px;
+    height: 106px;
+    background-color: #CEBFAD;
+}
+
+.a_10{
+    position: absolute;
+    top: 881px;
+    width: 299px;
+    height: 106px;
+    background-color: #EBE4DA;
+}
+
+.a_11{
+    position: absolute;
+    top: 896px;
+    left: 36px;
+}
+
+.a_12{
+    position: absolute;
+    top: 940px;
+    left: 36px;
+}
+
+.a_13{
+    position: absolute;
+    top: 1025px;
+    left: 36px;
+}
+
+.a_14{
+    position: absolute;
+    top: 1090px;
+    left: 36px;
+}
+
+.a_15{
+    position: absolute;
+    top: 1180px;
+    left: 36px;
+}
+
+.a_16{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #EBE4DA;
+    top: 1351px;
+    left: 27px;
+}
+
+.a_17{
+    position: absolute;
+    top: 1415px;
+    left: 98px;
+}
+
+
+
+
+/* 메뉴설명 스타일 */
+.b_01{
+    position: relative;
+    top: 44px;
+    left: 180px;
+}
+
+.b_02{
+    position: relative;
+    top: 45px;
+    left: 150px;
+}
+
+.b_03{
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.b_04{
+
+}
+
+.b_05{
+    position: relative;
+    top: 280px;
+    width: 148px;
+    height: 60px;
+    background-color: #CEBFAD;
+}
+
+.b_06{
+    position: relative;
+    top: 133px;
+    left: 147px;
+    width: 246px;
+    height: 147px;
+    background-color: #F8F5F1;
+}
+
+.b_07{
+    position: relative;
+    top: -85px;
+    left: 28px;
+}
+
+.b_08{
+    position: relative;
+    top: -200px;
+    left: 161px;
+}
+
+.b_09{
+    position: relative;
+    top: -198px;
+    left: 161px;
+}
+
+.b_10{
+   position: relative;
+    top: -183px;
+    left: 161px; 
+}
+
+.b_11{
+    position: relative;
+    top: -166px;
+    left: 161px;
+}
+
+
+
+
+.b_12{
+    position: relative;
+    top: 67px;
+    left: 246px;
+    width: 148px;
+    height: 60px;
+    background-color: #CEBFAD;
+}
+
+.b_13{
+    position: relative;
+    top: -80px;
+    width: 246px;
+    height: 147px;
+    background-color: #F8F5F1;
+}
+
+.b_14{
+    position: relative;
+    top: -298px;
+    left: 270px;
+}
+
+.b_15{
+    position: relative;
+    top: -410px;
+    left: 18px;
+}
+
+.b_16{
+    position: relative;
+    top: -408px;
+    left: 18px;
+}
+
+.b_17{
+   position: relative;
+    top: -395px;
+    left: 18px; 
+}
+
+.b_18{
+    position: relative;
+    top: -380px;
+    left: 18px;
+}
+
+
+
+
+.b_19{
+    position: relative;
+    top: -153px;
+    width: 148px;
+    height: 60px;
+    background-color: #CEBFAD;
+}
+
+.b_20{
+    position: relative;
+    top: -300px;
+    left: 147px;
+    width: 246px;
+    height: 147px;
+    background-color: #F8F5F1;
+}
+
+.b_21{
+    position: relative;
+    top: -510px;
+    left: 28px;
+}
+
+.b_22{
+    position: relative;
+    top: -630px;
+    left: 161px;
+}
+
+.b_23{
+    position: relative;
+    top: -628px;
+    left: 161px;
+}
+
+.b_24{
+   position: relative;
+    top: -183px;
+    left: 161px; 
+}
+
+.b_25{
+    position: relative;
+    top: -600px;
+    left: 161px;
+}
+
+
+
+
+.b_26{
+    position: relative;
+    top: 67px;
+    left: 246px;
+    width: 148px;
+    height: 60px;
+    background-color: #CEBFAD;
+}
+
+.b_27{
+    position: relative;
+    top: -80px;
+    width: 246px;
+    height: 147px;
+    background-color: #F8F5F1;
+}
+
+.b_28{
+    position: relative;
+    top: -298px;
+    left: 270px;
+}
+
+.b_29{
+    position: relative;
+    top: -410px;
+    left: 18px;
+}
+
+.b_30{
+    position: relative;
+    top: -408px;
+    left: 18px;
+}
+
+.b_31{
+   position: relative;
+    top: -395px;
+    left: 18px; 
+}
+
+.b_32{
+    position: relative;
+    top: -380px;
+    left: 18px;
+}
+
+
+
+
+.b_33{
+    position: relative;
+    top: 280px;
+    width: 148px;
+    height: 60px;
+    background-color: #CEBFAD;
+}
+
+.b_34{
+    position: relative;
+    top: 133px;
+    left: 147px;
+    width: 246px;
+    height: 147px;
+    background-color: #F8F5F1;
+}
+
+.b_35{
+    position: relative;
+    top: -85px;
+    left: 28px;
+}
+
+.b_36{
+    position: relative;
+    top: -200px;
+    left: 161px;
+}
+
+.b_37{
+    position: relative;
+    top: -198px;
+    left: 161px;
+}
+
+.b_38{
+   position: relative;
+    top: -183px;
+    left: 161px; 
+}
+
+.b_39{
+    position: relative;
+    top: -166px;
+    left: 161px;
+}
+
+
+
+
+/* 디저트 메뉴설명 스타일 */
+.c_01{
+
+}
+
+
+
+
+/* 디저트 39 SNS */
+.d_01{
+
+}
